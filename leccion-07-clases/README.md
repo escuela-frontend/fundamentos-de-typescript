@@ -1,4 +1,6 @@
-# Unidad 2, Lección 07: Clases
+# Lección 07: Clases
+
+> Section 3: E-commerce Checkout 
 
 ¡Felicidades! Has terminado la primera unidad de TypeScript IRL. Ahora verémos la segunda:
 
