@@ -1,8 +1,8 @@
-# Unidad 2, Lección 9: Herencia
+# Lección 9 - Herencia
 
 En esta lección vamos a crear una jerarquía de distintos lados del dados y asignarselos a un `Dice`, encapsulando y grabando su valor.
 
-## 🐾 Primeros Pasos
+## 1. Conceptos Esenciales
 
 ### ¿Qué son clases abstractas?
 
@@ -16,7 +16,7 @@ abstract class Animal {
 }
 ```
 
-> ✨ ¡Prueba este código en [este playground](https://www.typescriptlang.org/play?#code/IYIwzgLgTsDGEAJYBthjAgggOwJYFthkEBvAKASQHttIoBXeKqACgAd6RldYFsr8IKAFMAXAjq5sAcwCUpAL5kFQA)!
+> ¡Prueba este código en [este playground](https://www.typescriptlang.org/play?#code/IYIwzgLgTsDGEAJYBthjAgggOwJYFthkEBvAKASQHttIoBXeKqACgAd6RldYFsr8IKAFMAXAjq5sAcwCUpAL5kFQA)!
 
 Si tratamos de inicializar un `Animal`, TypeScript nos alega:
 
@@ -42,7 +42,7 @@ class Pollito extends Animal {
 }
 ```
 
-> ✨ ¡Prueba este código en [este playground](https://www.typescriptlang.org/play?#code/IYIwzgLgTsDGEAJYBthjAgggOwJYFthkEBvAKASQHttIoBXeKqACgAd6RldYFsr8IKAFMAXAjq5sAcwCUpAL5klZFGgwAFYVChUEwgB4Rh2ACYYcBIqQoJUpmK3nlKr6rSrJhAOmRVpLAAGAIUA4vTA9AjSEfQAhIGyANy2Sipq6AgantwQeobGZhZ4hMQuCBAA7rgQxsBONm6UsDRgnj5+ASEaALd6bH0JyanKQA)!
+> ¡Prueba este código en [este playground](https://www.typescriptlang.org/play?#code/IYIwzgLgTsDGEAJYBthjAgggOwJYFthkEBvAKASQHttIoBXeKqACgAd6RldYFsr8IKAFMAXAjq5sAcwCUpAL5klZFGgwAFYVChUEwgB4Rh2ACYYcBIqQoJUpmK3nlKr6rSrJhAOmRVpLAAGAIUA4vTA9AjSEfQAhIGyANy2Sipq6AgantwQeobGZhZ4hMQuCBAA7rgQxsBONm6UsDRgnj5+ASEaALd6bH0JyanKQA)!
 
 ### Funciones abstractas
 
@@ -72,9 +72,9 @@ class Perro extends Animal {
 }
 ```
 
-> ✨ ¡Prueba este código en [este playground](https://www.typescriptlang.org/play?#code/IYIwzgLgTsDGEAJYBthjAgggOwJYFthkEBvAKASQHttIoBXeKqACgAd6RldYFsr8IKAFMAXAjq5sAcwCUpAL4UEoOnESwBw1pvy4AJsHGSZs8QDcqBgNxklZFGgwAFbVCoJhADwjDs+jBwCIlJlVH0YVnlySkpNWipkYQA6ZCppFgADAEKAcXpgegRpAvoAQkzZW0olOK0dAQMjCWgpOQsrfVDY6gSk1PSs7IBFemEEKB4PXW0EABISXSaFCqrlJXsgA)!
+> ¡Prueba este código en [este playground](https://www.typescriptlang.org/play?#code/IYIwzgLgTsDGEAJYBthjAgggOwJYFthkEBvAKASQHttIoBXeKqACgAd6RldYFsr8IKAFMAXAjq5sAcwCUpAL4UEoOnESwBw1pvy4AJsHGSZs8QDcqBgNxklZFGgwAFbVCoJhADwjDs+jBwCIlJlVH0YVnlySkpNWipkYQA6ZCppFgADAEKAcXpgegRpAvoAQkzZW0olOK0dAQMjCWgpOQsrfVDY6gSk1PSs7IBFemEEKB4PXW0EABISXSaFCqrlJXsgA)!
 
-## ¿Qué ha cambiado en esta lección?
+**¿Qué ha cambiado en esta lección?**
 
 ¡Ha cambiado bastante el archivo `./src/types/Dice.ts`! En la línea 2, encontrarás una nueva propiedad:
 
@@ -116,9 +116,9 @@ También verás que cambió el constructor y el `value`, además agregamos `face
 ```
 
 
-## 🥅 Metas
+# 2. Desafío
 
-En esta lección, vamos a agregar una clase abstracta llamada `Face` y sus subclases:
+En esta desafío, vamos a agregar una clase abstracta llamada `Face` y sus subclases:
 
 - OneFace
 - TwoFace
@@ -127,20 +127,14 @@ En esta lección, vamos a agregar una clase abstracta llamada `Face` y sus subcl
 - FiveFace
 - SixFace
 
-## 🤸 Ejercicios
 
-### 1. Declarar clase abstracta
+1. Declarar clase abstracta. En `./src/types/Dice.ts`, debajo de la clase `Dice`, agrega la clase abstracta `Face` con función abstracta `value` que retorna un `number`.
 
-En `./src/types/Dice.ts`, debajo de la clase `Dice`, agrega la clase abstracta `Face` con función abstracta `value` que retorna un `number`.
+2. Las subclases de `Face`. Agrega las seis subclases que mencionamos antes, cada una con una implementación de `value()` que retorna un valor correspondiente al número.
 
-### 2. Las subclases de `Face`
-
-Agrega las seis subclases que mencionamos antes, cada una con una implementación de `value()` que retorna un valor correspondiente al número.
-
-### Crédito extra
+# 3. Crédito Extra
 
 Agrega `SevenFace` y `EightFace`. ¿Qué nos falta para poder usarlos?
 
-## 🤔 Reflexiones
 
 Seguro que podríamos haber echo esto con un gran `if` statement. ¿Cuál es la ventaja de hacerlo con herencia?
