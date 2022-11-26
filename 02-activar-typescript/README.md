@@ -1,14 +1,14 @@
-# Unidad 1, Lección 2: Activar TypeScript
+# Lección 2: Activar TypeScript
+
+## 01. Conceptos Esenciales
 
 Ahora que instalamos TypeScript, ¡es hora de empezar a usarlo!
 
 El comportamiento de TypeScript se define con el archivo de configuración `tsconfig.json`, donde podemos definir, por ejemplo; a que clase de JavaScript compilamos, que extensiones de archivos incluimos, etc.
 
-## 🥅 Metas
+## 02. Desafío
 
-- Configurar nuestra aplicación para que use TypeScript
-
-## 🤸 Ejercicios
+Vamos a configurar nuestra aplicación para que use TypeScript.
 
 ### 1. Renombrar archivos `.jsx` a `.tsx`
 
@@ -34,7 +34,9 @@ Nuestra última tarea será activar el modo react para la configuración. Agregu
 
 ¡Ahora podemos echar a andar nuestra app!
 
-## 🤔 Reflexiones
+## 03. Crédito Extra
+
+Reflexiones:
 
 - ¿Cómo es que podemos agarrar JS existente y usarlo en archivos TS?
 - ¿Qué pasa si cambiamos el modo estricto de vuelta a `true`?
