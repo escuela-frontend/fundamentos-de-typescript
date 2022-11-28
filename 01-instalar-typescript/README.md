@@ -49,7 +49,7 @@ Es más, muchas tienen sus archivos DTS `d.ts`, que agregan capacidades especifi
 
 En esta unidad vamos a convertir una aplicación de React escrita con JavaScript a TypeScript.
 
-> ¡Ojo! no es necesario conocer completamente React para este workshop. Si deseas aprender más de React, te recomiendo el [maravilloso curso de Matías en la Escuela Frontend](https://www.escuelafrontend.com/react). 
+> ¡Ojo! no es necesario conocer completamente React para este curso. Si deseas aprender más de React, te recomiendo el [maravilloso curso de Matías en la Escuela Frontend](https://www.escuelafrontend.com/react). 
 
 
 Nuestra app se llama "Palabras Amables". Puedo usar esta para poder anotar y acordarme de las cosas lindas que se me dicen.Esta aplicación fué creada con [`create-react-app`](https://create-react-app.dev/) una herramienta para autogenerar aplicaciones React.
