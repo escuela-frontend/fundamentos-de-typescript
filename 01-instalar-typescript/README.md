@@ -1,6 +1,6 @@
 # Lección 1 - Instalar TypeScript en una base de código JavaScript
 
-## 01. Conceptos Esenciales
+## Ejercicio
 
 TypeScript es un lenguaje de programación de código abierto que extiende las capacidades de JavaScript, usado para desarrollar aplicaciones modernas y seguras.
 
@@ -45,7 +45,7 @@ TypeScript se compila a JavaScript y puede ser usada en cualquier aplicación qu
 Es más, muchas tienen sus archivos DTS `d.ts`, que agregan capacidades especificas para TypeScript.
 
 
-## 02. Desafío
+### Desafío
 
 En esta unidad vamos a convertir una aplicación de React escrita con JavaScript a TypeScript.
 
@@ -78,7 +78,7 @@ $ npm run dev
 ¡Ojo! Que los vamos a instalar con la opción `--save-dev`
 
 
-## 03. Crédito Extra
+### Crédito Extra
 
 Reflexiones:
 
