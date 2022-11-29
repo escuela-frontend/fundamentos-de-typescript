@@ -1,10 +1,10 @@
-# Unidad 1, Lección 3: Primera Interfaz
+# Lección 3: Primera Interfaz
+
+## 01. Conceptos Esenciales
 
 Y ahora, ¡empezemos a escribir TypeScript!
 
 Una de las características más importantes que agrega TypeScript es el uso de tipos.
-
-## 🐾 Primeros Pasos
 
 Digamos que tenemos un tipo que se llama `type`. Podemos declarar una variable y decirle a TypeScript que esta variable sólo puede tener este tipo. Por ejemplo:
 
@@ -86,11 +86,9 @@ let gato = {
 
 > ✨ ¡Prueba este código en [este playground](https://www.typescriptlang.org/play?#code/JYOwLgpgTgZghgYwgAgLJwM4IPZjsgbwChlkRsBbAIyggC5kMwpQBzAbhOQgBM4eGIAK7VonUgDchEADZwGVbNhkQ4IccjgVgTfhAwN0WXHADaAXU4BfIkRVhkAB2hRsyALyEu5arQYAiADFaHn8AGi5efgYARgBWCMlpOQZ4GQwIRM1tXR59BgsIq047CAdWODA3T2JSHxp6ZH8AYTgZJDBQfXDIvgFkGIBmLKlZeWRmaSytHTw8g2RTZyhXcyL2IA)!
 
-## 🥅 Metas
+## 02. Desafío
 
 En esta lección vamos a declarar y ultilizar nuestra primera interfaz.
-
-## 🤸 Ejercicios
 
 ### Exportar nuestra interfaz `Post`
 
@@ -104,7 +102,9 @@ Exportemos una interfaz llamada Post, con las siguentes propiedades **sin asigna
 - `body`: El texto de las palabras amables
 - `timestamp`: La hora y fecha en que se creó el `Post`
 
-### Crédito extra: Tipos para las propiedades
+## 03. Crédito extra
+
+### Tipos para las propiedades
 
 Bueno ahora que ya tenemos nuestra interfaz con sus propiedades, ¿por qué no le agregamos definiciones de tipos a sus propiedades?
 
@@ -124,6 +124,6 @@ setPosts([
 
 Esto nos ayuda a deducir que tipos tendrán las propiedades. 🤔
 
-## 🤔 Reflexiones
+### Reflexiones
 
 - ¿Por qué es que podemos declarar las propiedades del interfaz sín añadirles tipos?
