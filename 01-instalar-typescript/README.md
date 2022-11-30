@@ -44,18 +44,13 @@ TypeScript se compila a JavaScript y puede ser usada en cualquier aplicación qu
 
 Es más, muchas tienen sus archivos DTS `d.ts`, que agregan capacidades especificas para TypeScript.
 
-
 ## 02. Desafío
 
 En esta unidad vamos a convertir una aplicación de React escrita con JavaScript a TypeScript.
 
-> ¡Ojo! no es necesario conocer completamente React para este curso. Si deseas aprender más de React, te recomiendo el [maravilloso curso de Matías en la Escuela Frontend](https://www.escuelafrontend.com/react). 
-
+> ¡Ojo! no es necesario conocer completamente React para este curso. Si deseas aprender más de React, te recomiendo el [maravilloso curso de Matías en la Escuela Frontend](https://www.escuelafrontend.com/react).
 
 Nuestra app se llama "Palabras Amables". Puedo usar esta para poder anotar y acordarme de las cosas lindas que se me dicen.Esta aplicación fué creada con [`create-react-app`](https://create-react-app.dev/) una herramienta para autogenerar aplicaciones React.
-
-![image](https://user-images.githubusercontent.com/656318/152138927-8c031cef-a2b5-4d79-87e0-b028da9514c2.png)
-
 
 **Tu desafío es instalar lo siguiente en el proyecto usando `npm`.**
 
@@ -77,6 +72,15 @@ $ npm run dev
 
 ¡Ojo! Que los vamos a instalar con la opción `--save-dev`
 
+¡Probemos nuestra nueva funcionalidad! Échale un vistazo a `./module.ts`. ¡Vamos a compilarlo!
+
+Si tienes todo instalado correctamente, podrás hacerlo con `tsc`:
+
+```bash
+$ ./node_modules/.bin/tsc module.ts
+```
+
+Veremos un nuevo archivo JavaScript.
 
 ## 03. Crédito Extra
 
