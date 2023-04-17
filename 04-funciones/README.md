@@ -1,10 +1,10 @@
-# Unidad 1, Lección 4: Funciones
+# Lección 4: Funciones
+
+## 01. Conceptos Esenciales
 
 Ahora le agregaremos tipos a nuestras funciones en TypeScript!
 
 Tal como podemos declarar variables con tipos, lo mismo se puede hacer con funciones.
-
-## 🐾 Primeros Pasos
 
 Cáda parametro de una función puede definirse con un tipo. Por ejemplo:
 
@@ -46,9 +46,9 @@ En esta lección, vamos a:
 - Definir nuestra primera función con TypeScript
 - Agregar declaraciones de tipos a funciones
 
-## 🤸 Ejercicios
+## 02. Desafío
 
-### 1. Nueva función de utilidad
+### Nueva función de utilidad
 
 En `./src/components/PostList.tsx`, en la línea 3, importamos la función `formatPostTimestamp`:
 
@@ -67,7 +67,7 @@ Exportemos en `./src/utils/formatters.ts` la función formatPostTimestamp:
 - Toma como argumento un `post` de tipo `Post`
 - Retorna un `Date` formateado: `return new Date(post.timestamp).toLocaleString("es");`
 
-### 3. Darle tipos a los argumentos de la función anónima
+### Darle tipos a los argumentos de la función anónima
 
 Volvamos a `./src/components/PostList.tsx`, donde encontraremos una función anónima en la linea 8:
 
@@ -77,7 +77,7 @@ let rows = posts.map((post, index) => {
 
 ¡Introduzcamos tipos para los argumentos!
 
-### Crédito extra: Prop Types
+## 03. Crédito extra
 
 En la línea 5, definimos nuestro componente con propiedades como un objeto:
 
@@ -87,6 +87,6 @@ function PostList({posts}) {
 
 Extraigamos un interfaz local para los `Props` que tengan como propediad un arreglo de `Post`s.
 
-## 🤔 Reflexiones
+### Reflexiones
 
 - ¿Qué tipo de retorno tendrá `formatPostTimestamp`?
