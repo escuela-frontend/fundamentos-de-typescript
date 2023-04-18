@@ -1,4 +1,4 @@
-# Unidad 3, Lección 11: TypeScript Estricto: `noImplicitAny`
+# Lección 11: TypeScript Estricto: `noImplicitAny`
 
 ¡Felicidades! Has terminado la segunda unidad de TypeScript IRL. Ahora verémos la tercera:
 
@@ -12,7 +12,7 @@ La tienda de dulces ya esta finalizada y desarrollada y en esta unidad vamos a a
 
 > Ojo: Esta app está escrita con [Svelte](https://svelte.dev/), un framework de frontend. Tal como en la primera y segunda unidad, no es necesario conocer completamnete Svelte para completar este workshop. ¡Te guiaremos por todo lo necesario para triunfar!
 
-## 🐾 Primeros Pasos
+## 01. Conceptos Esenciales
 
 ### Un tour de la tienda de dulces
 
@@ -86,13 +86,11 @@ Este código no se compilará con el error:
 Parameter 'numero' implicitly has an 'any' type.
 ```
 
-## 🥅 Metas
+## 02. Desafío
 
 En esta lección, vamos a mejorar nuestro código con la regla `noImplicitAny`. 
 
-## 🤸 Ejercicios
-
-### 1. Chequeos del código
+### Chequeos del código
 
 Arreglemos nuestra base de código para que los siguientes comandos funcionen:
 
@@ -108,7 +106,7 @@ Examinemos los tres:
 - `npm run lint` echa a andar el linter [`ESLint`](https://eslint.org/) para hacer análisis estático
 - `npm run check` echa a andar la herramienta [`svelte-check`](https://github.com/sveltejs/language-tools/tree/master/packages/svelte-check) para verificar que nuestro código Svelte funciona correctamente
 
-### 2. Arreglar las pruebas
+### Arreglar las pruebas
 
 Al correr `npm run test`, se nos presenta:
 
@@ -155,7 +153,7 @@ Parameter 'item' implicitly has an 'any' type.
 
 Arreglemos estos dandoles el tipo `any` o `any[]`.
 
-### 3. Arreglar el linting
+### Arreglar el linting
 
 Al correr `npm run lint`, se nos presenta:
 
@@ -166,7 +164,7 @@ Al correr `npm run lint`, se nos presenta:
 
 ¡Ah, bueno! Se ve bién
 
-### 4. Arreglar el check
+### Arreglar el check
 
 Al correr `npm run check`, se nos presenta:
 
@@ -186,7 +184,7 @@ svelte-check found 0 errors, 0 warnings, and 0 hints
 
 ¡Ah, ya! También funciona.
 
-## 🤔 Reflexiones
+## 03. Crédito extra
 
 ### ¿Pero porqué hacer esto, que tiene de conveniente?
 
