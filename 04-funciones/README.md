@@ -40,13 +40,11 @@ const publicarAdicion = (x: number, y: number): void => {
 
 Esta definición de `publicarAdicion` es equivalente a la anterior.
 
-## 🥅 Metas
+## 02. Desafío
 
 En esta lección, vamos a:
 - Definir nuestra primera función con TypeScript
 - Agregar declaraciones de tipos a funciones
-
-## 02. Desafío
 
 ### Nueva función de utilidad
 
