@@ -1,10 +1,10 @@
-# Unidad 3, Lección 14: Genéricos vuelven
+# Lección 14: Genéricos vuelven
 
 ¡Hemos llegado a la última lección! Que viaje.
 
 Con esto, el último perfeccionamiento que me gustaría proponer es separar la conección fuerte entre un `ShoppingCart` y la clase `Candy`.
 
-## 🐾 Primeros Pasos
+## 01. Conceptos Esenciales
 
 ### ¿Pero por qué?
 
@@ -35,19 +35,17 @@ test("New cart has no items and 0 total", () => {
 });
 ```
 
-## 🥅 Metas
+## 02. Desafío
 
 En esta lección, vamos a usar genéricos con `ShoppingCart` para que sea cualquier tipo `CartItemType`.
 
-## 🤸 Ejercicios
-
-### 1. Adaptar la clase Candy
+### Adaptar la clase Candy
 
 Vamos a cambiar la definición de `Candy` en `./src/types/Candy.ts`.
 
 Va a `extends CartItemType` (¡tenemos que importar CartItemType!) y quitar las propiedades, ya que existen en `CartItemType`.
 
-### 2. Cambiar ShoppingCart a ser genérico
+### Cambiar ShoppingCart a ser genérico
 
 En `./src/types/ShoppingCart.ts`, quitemos el import de Candy, y cambiemos la definicion de la clase a ser `ShoppingCart<T>`.
 
@@ -59,7 +57,9 @@ Pero ahí llegamos a un problemita. `T` no tiene las funciones `name` ni `priceC
 import type CartItemType from "./CartItemType";
 ```
 
-## 🤔 Reflexiones
+## 03. Crédito extra
+
+### Reflexiones
 
 - ¿De qué nos sirve usar genéricos aquí?
 - ¿Si quieremos agregar `Sandwich`es para la venta, cómo lo hacemos?
