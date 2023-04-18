@@ -1,8 +1,8 @@
-# Unidad 3, Lección 12: `strictNullChecks`
+# Lección 12: `strictNullChecks`
 
 ¡A la próxima! En esta lección activaremos el próximo modo estricto: `strictNullChecks`.
 
-## 🐾 Primeros Pasos
+## 01. Conceptos Esenciales
 
 ### ¿Qué hace `strictNullChecks`?
 
@@ -54,13 +54,11 @@ if (perrito) {
 
 Ahora funciona sin problemas
 
-## 🥅 Metas
+## 02. Desafío
 
 En esta lección, vamos a mejorar nuestro código con la regla `strictNullChecks`.
 
-## 🤸 Ejercicios
-
-### 1. Arreglar las pruebas
+### Arreglar las pruebas
 
 Echar a andar `npm run test` nos entrega:
 
@@ -95,7 +93,7 @@ Ran all test suites matching /src/i
 
 Todas las fallas estan situadas en `./src/types/ShoppingCart.ts`. ¡Arreglémoslas con guardias!
 
-### 2. Arreglar el linting
+### Arreglar el linting
 
 Al correr `npm run lint`, se nos presenta:
 
@@ -106,7 +104,7 @@ Al correr `npm run lint`, se nos presenta:
 
 ¡Ah, bueno! Se ve bién
 
-### 3. Arreglar el check
+### Arreglar el check
 
 Al correr `npm run check`, se nos presenta:
 
