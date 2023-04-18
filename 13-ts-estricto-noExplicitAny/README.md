@@ -1,8 +1,8 @@
-# Unidad 3, Lección 13: `noExplicitAny`
+# Lección 13: `noExplicitAny`
 
 Esta vez, en vez de cambiar la configuración de `tsconfig`, vamos a cambiar nuestro `ESLint`.
 
-## 🐾 Primeros Pasos
+## 01. Conceptos Esenciales
 
 ### ¿Qué es ESLint?
 
@@ -52,13 +52,11 @@ export interface GroupedCartItem {
 
 Este es el tipo de retorno de `groupedItems()`
 
-## 🥅 Metas
+## 02. Desafío
 
 En esta lección, vamos a mejorar nuestro código con la regla de ESLint `noExplicitAny`
 
-## 🤸 Ejercicios
-
-### 1. Arreglar las pruebas
+### Arreglar las pruebas
 
 Al correr `npm run test`, se nos entrega:
 
@@ -78,7 +76,7 @@ Ran all test suites matching /src/i.
 
 ¡Ah, bueno! Se ve bién.
 
-### 2. Arreglar el linting
+### Arreglar el linting
 
 Al correr `npm run lint`, se nos entrega:
 
@@ -121,7 +119,7 @@ Si reemplazamos `any` con `GroupedCartItem`, veremos que en realidad `find` nos 
 
 Ahora debe funcionar `npm run lint`, pero sin embargo...
 
-### 3. Volver a las pruebas
+### Volver a las pruebas
 
 Si echamos a andar `npm run test`...
 
@@ -196,7 +194,9 @@ npm run lint
 npm run check
 ```
 
-## 🤔 Reflexiones
+## 03. Crédito extra
+
+### Reflexiones
 
 - ¿Cuáles son las ventajas de hacer linting?
 - ¿Cuál es la ventaja de prohibir el `any` explícito? 
