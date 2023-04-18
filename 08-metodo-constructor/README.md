@@ -1,10 +1,10 @@
-# Unidad 2, Lección 08: Constructores
+# Lección 08: Constructores
 
 Seguro que ya te habrás pasado un buen rato jugando a los dados 😄
 
 Vamos a cambiar nuestro juego un poco para que pueda jugarse con dados de distintos números de lados.
 
-## 🐾 Primeros Pasos
+## 01. Conceptos Esenciales
 
 Veamos qué es lo que ha cambiado en `./src/App.vue`, específicamente en la línea 7:
 
@@ -18,9 +18,9 @@ Aquí vemos que le pasamos un 6 a cada nuevo `Dice`!Esta será la cantidad de la
 
 En esta lección vamos a modificar nuestra clase `Dice` para que acepte una cantidad de lados `sides` y lo ultilice como el máximo valor al tirarlo.
 
-## 🤸 Ejercicios
+## 02. Desafío
 
-### 1. La propiedad `sides`
+### La propiedad `sides`
 
 Una clase puede tener propiedades tal como en JavaScript:
 
@@ -38,7 +38,7 @@ class Perro {
 
 Agreguémosle una propiedad a `Dice` llamada `sides` que será del tipo `number`.
 
-### 2. Adaptar la función `value`
+### Adaptar la función `value`
 
 En la lección anterior habíamos programado nuestro `Dice` para que tirase al azar un número entre 1 y 6 y lo guardará en `value`. Ahora lo vamos a adaptar para que acepte entre 1 y el número de lados dados, usando la palabra clave `this`.
 
@@ -74,6 +74,8 @@ Este es equivalente al anterior
 
 Tratemos de cambiar la propiedad `sides` de la clase `Dice` a privada.
 
-## 🤔 Reflexiones
+## 03. Crédito extra
+
+### Reflexiones
 
 - ¿Qué beneficio hay en que una propiedad sea pública?
