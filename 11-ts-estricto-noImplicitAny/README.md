@@ -1,4 +1,4 @@
-# Lección 11: TypeScript Estricto: `noImplicitAny`
+# Lección 11: TypeScript Estricto - `noImplicitAny`
 
 ¡Felicidades! Has terminado la segunda unidad de TypeScript IRL. Ahora verémos la tercera:
 
