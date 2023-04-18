@@ -1,10 +1,10 @@
-# Unidad 2, Lección 10: Guardias de Tipos
+# Lección 10: Guardias de Tipos
 
 ¡A continuación, vamos a agregarle aún más seguridad a nuestra aplicación!
 
 Vamos a aprender sobre propiedades opcionales, tipos unión e intersección y guardias de tipos.
 
-## 🐾 Primeros Pasos
+## 01. Conceptos Esenciales
 
 ### ¿Qué son propiedades opcionales?
 
@@ -73,13 +73,11 @@ src/types/Dice.ts:12:12 - error TS2532: Object is possibly 'undefined'.
 Found 1 error.
 ```
 
-## 🥅 Metas
+## 02. Desafío
 
 En esta lección, vamos a arreglar nuestra aplicación usando una guardia de tipo.
 
-## 🤸 Ejercicios
-
-### 1. ¿Qué pasa si no hay lado de dado?
+### ¿Qué pasa si no hay lado de dado?
 
 En el caso donde `face` sea `undefined`, lanzemos un error que diga "Imposible no tener lado de dado". Lanzar un error es igual que en JavaScript:
 
@@ -87,7 +85,7 @@ En el caso donde `face` sea `undefined`, lanzemos un error que diga "Imposible n
 throw new Error(message);
 ```
 
-### Crédito extra
+## Crédito extra
 
 ¡Pongámos nuestra nueva propiedad opcional en práctica!
 
@@ -101,6 +99,6 @@ El valor de retorno de `faceForValue` ahora puede ser de tipo `Face` o `undefine
 
 Ahora podemos cambiarlo para que el `switch` por defecto retorne un `undefined`.
 
-## 🤔 Reflexiones
+### Reflexiones
 
 ¿De qué nos sirven las guardias de tipos?
