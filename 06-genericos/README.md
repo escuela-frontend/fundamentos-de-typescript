@@ -1,8 +1,8 @@
-# Unidad 1, Lección 6: Genéricos
+# Lección 6: Genéricos
 
 En esta lección nos encontramos con el próximo concepto más grande que introduce TypeScript, genéricos.
 
-## 🐾 Primeros Pasos
+## 01. Conceptos Esenciales
 
 ### ¿Qué son los genéricos?
 
@@ -50,7 +50,7 @@ Con el uso de genéricos, podemos asegurarnos que los dos argumentos tendrán el
 
 > **Ojo**: Seguro que te hayas preguntado por qué usamos la letra `T`. ¡Es nada más que una convención! Incluso, en otros lenguajes capáz que hayas visto el uso de `G`.
 
-## ¿Qué ha cambiado en esta lección?
+### ¿Qué ha cambiado en esta lección?
 
 ¡Quizás el cambio más grande es que nuestra aplicación ahora tiene un backend!
 
@@ -77,13 +77,11 @@ export async function postPost(post: Post) {
 
 Este nos permite pedir y mandar posts del servidor.
 
-## 🥅 Metas
+## 02. Desafío
 
 En esta lección, vamos a reemplazar las funciones del módulo `api` con genéricos.
 
-## 🤸 Ejercicios
-
-### 1. Renombrar funciones
+### Renombrar funciones
 
 Si miramos en `./frontend/src/App.tsx`, podemos ver el nuevo uso esperado de la `api`:
 
@@ -115,11 +113,11 @@ En `./frontend/src/utils/api.ts`, cambiemos los nombres y firmas de las funcione
 
 Tambíen tendrás que modificar las funciones para que usen el `resourceURL`. 
 
-### Crédito extra: `axios` genérico
+## Crédito extra
 
 Para hacer nuestras peticiones HTTP, usamos la librería `axios`. Esta también nos permite hacer `get` y `post` con `genéricos`. ¡Cambiémoslos!
 
-## 🤔 Reflexiones
+### Reflexiones
 
 - ¿Podemos usar algo que no sea ni `T` ni `G` en nuestros genéricos?
 - ¿Qué tipos de retorno tienen las funciones de `api`? Ojo que el `get` retorna un arreglo.
