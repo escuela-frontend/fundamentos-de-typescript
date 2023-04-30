@@ -3,7 +3,7 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-## 🔧 Fundamentos de TypeScript
+## 🔧 Curso de TypeScript IRL
 
 ¡Que alegría tenerte aquí! En este workshop aprenderemos los conceptos que se usan diariamente para desarrollar aplicaciones con TypeScript.
 
@@ -43,7 +43,7 @@ Este workshop asume dos cosas:
 Recomiendo tener instalado:
 
 - [git](https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Instalaci%C3%B3n-de-Git) versión 2.34.1 o mayor
-- [NodeJS](https://nodejs.org/es/) versión 12.18.4 o mayor
+- [NodeJS](https://nodejs.org/es/) versión 16 o mayor
 
 Para cada lección, puedes echar a andar el código con:
 
