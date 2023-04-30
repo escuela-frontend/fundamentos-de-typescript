@@ -12,12 +12,11 @@
  */
 	let cart = new ShoppingCart;
 
-// ❗️ A `item` le falta tipo. Démosles `any`.
-	const addCartItem = (item) => {
+	const addCartItem = (item: any) => {
 		cart = cart.addItem(item);
 	}
   </script>
-
+  
   <!-- 🛎 Contenido de nuestra aplicación -->
   
   <main>
