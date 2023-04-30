@@ -1,4 +1,4 @@
-# Lección 10: Guardias de Tipos
+# Lección 9: Guardias de Tipos
 
 ¡A continuación, vamos a agregarle aún más seguridad a nuestra aplicación!
 
@@ -13,7 +13,7 @@ TypeScript nos permite declarar propiedades que posiblemente no existan al inici
 ```typescript
 class Persona {
    edad?: number;
-   
+
    constructor(public nombre: string) {}
 }
 ```
@@ -22,14 +22,14 @@ class Persona {
 
 Aquí podemos ver que la clase tiene una propiedad `nombre`, pero la de `edad` tiene un signo de interrogación. Esto quiere decir que es una propiedad opcional. Puede ser de tipo `number` o `undefined`. O sea, si creamos una instancia de `Persona`, no requiere que se defina una edad. Por ejemplo:
 
-```typescript 
+```typescript
 const humano: Persona = new Persona("Mirabel");
 console.log(humano.edad < 100); // => Object is possibly 'undefined'.
 ```
 
 > ✨ ¡Prueba este código en [este playground](https://www.typescriptlang.org/play?#code/MYGwhgzhAEAKCmAnCB7AdmaBvAUNf8AJmIQPwBc0aArgLYBGSA3Hvq9MOhAC6LXDcUiABQAHavRABLYFRQNE8Sj0RS0AcwCU2AL449OTmh7QAFnTBoUlBMnSYAvFXgB3OElQZhAIgCyUxDBGEG9NFiNUEHgAOhAUdWFzWksUaKISaAAeaABGAAY8sOggA)!
 
-Este error nos indica que tenemos que asegurarnos que `humano.edad` tenga un valor. 
+Este error nos indica que tenemos que asegurarnos que `humano.edad` tenga un valor.
 
 ### Guardias de tipos
 
