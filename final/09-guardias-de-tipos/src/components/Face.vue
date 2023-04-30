@@ -1,4 +1,3 @@
-<!-- 👇 Componente para renderizar el número de un dado -->
 <script setup lang="ts">
 
 defineProps<{ value: number }>()
