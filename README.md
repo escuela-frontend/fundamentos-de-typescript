@@ -25,7 +25,15 @@ Soy ingenerio de software, developer relations e instructor de programación viv
 
 Al terminar este workshop, podrás desarrollar aplicaciones TypeScript con confianza y comodidad.
 
-## ✨ Emojis relevantes
+## ✨ Como funciona todo esto
+
+Cada leccion tendra un aprendizaje propio sobre un concepto de TypeScript. Esta dividido en tres unidades:
+
+- Leccíon 1-5: Cambiar una aplicación existente de JavaScript a TypeScript
+- Lección 6-9: Continuar desarrollando una aplicación TypeScript existente
+- Lección 10-13: De una buena a una gran base de código TypeScript
+
+Cada unidad incorpora una aplicación distinta que vamos desarrollando o mejorando con cada lección. cada tendrá un archivo `README.md` donde encontrarás los conceptos esenciales, un desafío y crédito extra. En las secciones relevantes del código, habrán pistas e information con emojis:
 
 👇 Cabecera de un archivo. Nos describe el contenido del archivo.
 ❗️ Tarea. Aquí pertenecen los cambios que agregaremos.
@@ -44,6 +52,10 @@ Recomiendo tener instalado:
 
 - [git](https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Instalaci%C3%B3n-de-Git) versión 2.34.1 o mayor
 - [NodeJS](https://nodejs.org/es/) versión 16 o mayor
+
+Puedes clonar este repositorio o un fork si quieres ir guardando al ir progresando:
+
+    git clone https://github.com/escuela-frontend/fundamentos-de-typescript.git
 
 Para cada lección, puedes echar a andar el código con:
 
